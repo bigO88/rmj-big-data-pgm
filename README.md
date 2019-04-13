@@ -55,7 +55,7 @@ Pig Script: /home/applicant/rajjanwa/task3/rajjanwa_task_third.pig
 
 This pig script will create output for user's first game played and date of first game played.
 
-Scala/Spark setup :
+## Scala/Spark setup :
 
 This project can be import in scala ide using:
 

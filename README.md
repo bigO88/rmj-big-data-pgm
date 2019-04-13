@@ -1,7 +1,9 @@
-# rmj-big-data-pgmSolutions & approache:
+# rmj-big-data-pgm
+
+## Solutions & approache:
 
 
-STEP 1.) Loading daily events to hive tables:
+### STEP 1.) Loading daily events to hive tables:
 
 use setup.sh for setup of base dir  & tables.
 
@@ -23,7 +25,7 @@ b.) game_event: /home/applicant/rajjanwa/sqls/load_game_played.sql
 
 once data is available into master tables we can performs tasks:
 
-Step 2.) Tasks:
+### Step 2.) Tasks:
 
 Task 1 ->
 create output table by setting external path in hdfs:
@@ -49,6 +51,3 @@ SQL: /home/applicant/rajjanwa/task3/create_task_3_out_table.sql
 Pig Script: /home/applicant/rajjanwa/task3/rajjanwa_task_third.pig
 
 This pig script will create output for user's first game played and date of first game played.
-
-
-

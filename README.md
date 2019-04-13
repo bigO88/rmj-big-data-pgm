@@ -52,3 +52,8 @@ This pig script will create output for user's first game played and date of firs
 
 
 
+This project can be import in scala ide using:
+
+1.) sbt clean eclipse
+2.) sbt clean assembly {there can heap memory issuse if not allow enough memory for SBT_OPTS}
+3.) build the project and use run scripts available in project's scripts folder.

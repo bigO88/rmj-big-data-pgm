@@ -7,17 +7,22 @@ use setup.sh for setup of base dir  & tables.
 
 1.) The daily events file will be at /data/incoming/{event_name}/{year}/{month}/{day}/ and below loader script will load this file to each events 
 master table used for analytical perpose:
+
  a.) user_created : /home/applicant/rajjanwa/sqls/create_master_user_created.sql
+
  b.) game_played :  /home/applicant/rajjanwa/sqls/create_master_game_played.sql
 
 
 The script: daily_event_loader.sh will load daily events by creating temp hive table on the incoming files and loading master tables which is partition by loaddate: YYYY-MM-DD 
 
- a.) user_created_YYYY_MM_DD : /home/applicant/rajjanwa/sqls/create_temp_user_created.sq b.) game_played_YYYY_MM_DD :  /home/applicant/rajjanwa/sqls/create_temp_game_played.sql
+ a.) user_created_YYYY_MM_DD : /home/applicant/rajjanwa/sqls/create_temp_user_created.sql 
+ 
+ b.) game_played_YYYY_MM_DD :  /home/applicant/rajjanwa/sqls/create_temp_game_played.sql
 
 The sql to load by partition date:
 
 a.) user_evetn: /home/applicant/rajjanwa/sqls/load_user_created.sql
+
 b.) game_event: /home/applicant/rajjanwa/sqls/load_game_played.sql
 
 

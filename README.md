@@ -1,5 +1,3 @@
-# rmj-big-data-pgm
-
 ## Solutions & approache:
 
 

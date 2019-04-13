@@ -1,0 +1,1 @@
+CREATE EXTERNAL TABLE ${hiveconf:table_name} ( user_id bigint, created_on_ts string, common_name string, user_type_cd string, gender_cd string, country_cd string, us_state_cd string, loaddate string ) ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' LOCATION 'hdfs://${hiveconf:file_path}';

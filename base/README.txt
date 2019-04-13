@@ -1,4 +1,4 @@
-# rmj-big-data-pgmSolutions & approache:
+Solutions & approache:
 
 
 STEP 1.) Loading daily events to hive tables:
